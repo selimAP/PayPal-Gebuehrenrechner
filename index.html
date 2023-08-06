@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paypal Gebühren berechnen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.webp">
+    <script src="script.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="main-container">
+            <div class="headerContainer">
+                <h2>PayPal Gebührenrechner</h2>
+                <p>Hier kannst du die PayPal Gebühren für die Option "Waren und Dienstleistungen" berechnen.</p>
+            </div>
+            <div class="content">
+                <input id="input-item" type="text" placeholder="Kaufpreis in euro">
+                <button id="calcButton">Berechnen</button>
+            </div>
+            <table class="table" id="tableContent">
+                <tr>
+                    <td>PayPal Gebühren</td>
+                    <td id="gebuehren"></td>
+                </tr>
+                <tr>
+                    <td>Restbetrag</td>
+                    <td id="rest"></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
